@@ -3,9 +3,8 @@
 In this project our objective is to...
 
 We achieve this in the following steps:
-1. 
-2. 
 
 
 ## References
-- Ref 1
+- [A. Riess, S. Rodney, D. Scolnic, et al. 2018. "Type Ia Supernova Distances at Redshift >1.5 from the Hubble Space Telescope Multicycle Treasury Programs: The Early Expansion Rate".](https://iopscience.iop.org/article/10.3847/1538-4357/aaa5a9/pdf)
+- [M. Bradley. 2022. "Type Ia Supernova Data".](https://datarepository.wolframcloud.com/resources/Type-Ia-Supernova-Data/) 
