@@ -1,6 +1,6 @@
 # Astro C161 Final Project: Evaluating the Flat Universe Model with Type 1a Supernovae
 ### By Caitlin Begbie and Emma Yu
-In this project our objective is to...
+In this project our objective is to determine the feasibility of assuming we live in a flat universe. We did this by considering Type IA supernovae data and their associated Hubble parameter.
 
 We achieve this in the following steps:
 
