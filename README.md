@@ -5,6 +5,10 @@ In this project our objective was to determine the feasibility of assuming we li
 
 
 ### Background
+
+*Note: All of our work and in depth analysis is done within the [flat_universe_modeling.ipynb](https://github.com/caitlinbegbie/C161-final-project/blob/main/flat_universe_modeling.ipynb) file in the repository.
+
+ 
 #### *Sourcing Our Data*
 We wanted to consider two different populations for this project because if our universe is flat, the redshift vs. apparent magnitude relation should hold for all light-emitting sources, not just one. By proving the relation holds true for two different sources, we can more accurately make the claim that the flat universe model applies, well, universally. To begin, we wanted to explore the population of Type 1A Supernovae because their absolute magnitudes are relatively the same, at about $M = -19.5$. Knowing this, we could easily apply the magnitude relation in our curve consideration. We sourced our Type 1A Supernova data from a Wolfram Alpha educational notebook which got its data from the following paper: [Type Ia Supernova Distances at Redshift >1.5 from the Hubble Space Telescope Multicycle Treasury Programs: The Early Expansion Rate](https://iopscience.iop.org/article/10.3847/1538-4357/aaa5a9/pdf). Not only was this data publicly available, but it was also filtered for easy analysis.
 
