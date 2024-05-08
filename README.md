@@ -10,6 +10,7 @@ We wanted to consider two different populations for this project because if our 
 
 Along with Type 1A Supernova, we wanted to consider how the redshift - apparent magnitude relation appeared in galaxies, as these do not have a consistent absolute magnitude across the entire population. We sourced our galaxy data from the publicly available [Sternberg Astronomical Institute (SAI) Supernova Catalog](http://stella.sai.msu.su/sncat/dbstructure.html). After converting the raw data to a more digestible csv format, we were able to plot these data points as well, though it is worth noting that the data was decidedly less clean than the supernova data that we considered.
 
+
 #### *Creating Our m-z Relation*
 To create our relation between apparent magnitude ($m$) and redshift ($z$), we began by using the classic equation for apparent magnitude and applied both the luminosity distance equation and the Friedmann-Robertson-Walker Metric, evaluated for a flat universe, to create our final relation:
 
@@ -19,10 +20,25 @@ In this function, $E(z) = \frac{H(z)}{H_0}$, where $H(z)$ is the Hubble paramete
 
 We used this function to evaluate the curve fit for both populations, the only changes being in the consideration of the absolute magnitude values.
 
+
 #### *Setting Up Our Virtual Environment*
 Due to the amount of packages that we wanted to download for this project, along with the computational work we wanted to do, we decided to use a virtual environment in our coding efforts. We did this by using the venv package and creating a requirements.txt file to record all of our downloads and specifications for this environment. This was particularly helpful because it allowed us to use Jupyter Lab and other large packages without taking up excessive space on our personal hard drives.
 
 
+### Analysis
+Using our relationship derived above, we were able to create curves for each of the population data sets, and model them next to the original data. The graphs of each of these are shown here:
+
+<img src="sn_fit.png" alt="sn_fit" width="400"/> <img src="gal_fit.png" alt="gal_fit" width="413"/>
+
+We then utilized a reduced chi-squared analysis for each of the populations, and yielded the following results:
+
+$\tilde{\chi}^2_s =  1.723 \times{10^{-5}}$ and $\tilde{\chi}^2_g =  7.606 \times{10^{-4}}$ 
+
+With low $\tilde{\chi}^2_s$ values like this, we can conclude that our fits are done pretty well, though it is worth noting that these values are so small because we have many degrees of freedom. Visually, the galaxy fit is not nearly as aligned as the supernova fit which is likely due to two different reasons: (1) Since the galaxies did not have a consistent absolute magnitude over the entire population, we calculated the average in order to produce a smooth curve and (2) We were unable to find interpolation data for a wide range of galaxies, meaning that we used the same interpolation criteria that we used for the supernovae. Because of these two liberties that we took in fitting the galaxies, we have an order of magnitude difference between the two fits implying, in this case, that the fit for the galaxies is not amazing. However, it can still be seen that the galaxies follow the trend predicted by the flat universe metric, so it can still be concluded that the model is relevant. 
+
+
+### Results
+In completing this project, we concluded that, from what we can tell, we are living in a flat universe. In our efforts to create an apparent magnitude versus redshift relation indicative of a flat universe, and then applying it to two different populations, we were able to see that this model is extremely accurate in considering luminous populations.
 
 
 ### About Our Repository
