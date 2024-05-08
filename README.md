@@ -1,14 +1,14 @@
 # Astro C161 Final Project: Evaluating the Flat Universe Model with Type 1a Supernovae and Galaxies
 ## By Caitlin Begbie and Emma Yu
 ### Introduction
-In this project our objective was to determine the feasibility of assuming we live in a flat universe. We did this by considering Type IA supernovae data and galaxy data from the Hubble Space Telescope (HST) with their associated Hubble parameters. To do this, we first determined a relation between redshift ($z$) and apparent magnitude ($m$) for a flat universe model, which we then used to generate curves for both of our respective data sets. By comparing the curves to our observation data, both visually and using reduced chi-squared analyses, we were able to confidently claim that we live in the flat universe model.
+In this project our objective was to determine the feasibility of assuming we live in a flat universe. We did this by considering Type IA supernovae data and galaxy data from the Hubble Space Telescope (HST) with their associated Hubble parameters. To do this, we first determined a relation between redshift ($z$) and apparent magnitude ($m$) for a flat universe model, which we then used to generate curves for both of our respective data sets. By comparing the curves to our observation data, both visually and using reduced chi-squared analyses, we found that the flat universe model reasonably fits our data.
 
 
 ### Background
 #### *Sourcing Our Data*
 We wanted to consider two different populations for this project because if our universe is flat, the redshift vs. apparent magnitude relation should hold for all light-emitting sources, not just one. By proving the relation holds true for two different sources, we can more accurately make the claim that the flat universe model applies, well, universally. To begin, we wanted to explore the population of Type 1A Supernovae because their absolute magnitudes are relatively the same, at about $M = -19.5$. Knowing this, we could easily apply the magnitude relation in our curve consideration. We sourced our Type 1A Supernova data from a Wolfram Alpha educational notebook which got its data from the following paper: [Type Ia Supernova Distances at Redshift >1.5 from the Hubble Space Telescope Multicycle Treasury Programs: The Early Expansion Rate](https://iopscience.iop.org/article/10.3847/1538-4357/aaa5a9/pdf). Not only was this data publicly available, but it was also filtered for easy analysis.
 
-Along with Type 1A Supernova, we wanted to consider how the redshift - apparent magnitude relation appeared in galaxies, as these do not have a consistent absolute magnitude across the entire population. We sourced our galaxy data from the publicly available [Sternberg Astronomical Institute (SAI) Supernova Catalog](http://stella.sai.msu.su/sncat/dbstructure.html). After converting the raw data to a more digestible csv format, we were able to plot these data points as well, though it is worth noting that the data was decidedly less clean than the supernova data that we considered.
+Along with Type 1A Supernova, we wanted to consider how the redshift - apparent magnitude relation appeared in galaxies, as these do not have a consistent absolute magnitude across the entire population. We sourced our galaxy data from the publicly available [Sternberg Astronomical Institute (SAI) Supernova Catalog](http://stella.sai.msu.su/sncat/dbstructure.html). After converting the raw data to a more digestible CSV format, we were able to plot these data points as well, though it is worth noting that the data was decidedly less clean than the supernova data that we considered.
 
 
 #### *Creating Our m-z Relation*
@@ -38,7 +38,7 @@ With low $\tilde{\chi}^2_s$ values like this, we can conclude that our fits are 
 
 
 ### Results
-In completing this project, we concluded that, from what we can tell, we are living in a flat universe. In our efforts to create an apparent magnitude versus redshift relation indicative of a flat universe, and then applying it to two different populations, we were able to see that this model is extremely accurate in considering luminous populations.
+In completing this project, we concluded that the Type 1a Supernovae data supports the flat universe model. In our efforts to create an apparent magnitude versus redshift relation indicative of a flat universe, and then applying it to two different populations, we were able to see that this model is reasonably accurate in considering luminous populations.
 
 
 ### About Our Repository
